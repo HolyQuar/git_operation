@@ -1,5 +1,1 @@
-this is a test file from demo2.
-this is a test file from demo2.
-this is a test file from demo2.
-this is a test file from demo2.
-this is a test file from demo2.
+today is sunday from demo2.
