@@ -1,0 +1,6 @@
+Hi,this is a test file
+it is a line.
+hello
+world
+'''''''
+for set test
