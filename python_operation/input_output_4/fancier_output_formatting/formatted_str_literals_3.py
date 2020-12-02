@@ -12,7 +12,7 @@ if __name__ == '__main__':
     for name, phone in table.items():
         # 5--all_nameCharacter_num
         #10d:phone_num
-        print(f'{name:6}==>{phone:8d}')
+        print(f'{name:8}==>{phone:8d}')
 
     # convert the value before it is formatted
     """

@@ -1,0 +1,47 @@
+1.字体大小：
+	file--settings--appearance & behaviors--勾选红色框中选
+	项修改界面字体大小，依次选择editor--general--font修改代码字体大小。
+2.聚焦PEP8代码风格检查--代码风格规范
+setting--inspection--PEP8--warning
+3.删除键不生效：
+Tools–>Vim Emulator取消勾选
+4.复制键用不了：
+setting--Vim Emulator--将对应的快捷键设置为IDE
+5.复制行：ctrl+d
+	移动行：ctrl+shift+up
+6.多个可选代码模块：
+	ctrl+alt+T
+7.如何把代码格式调整得更为美观规范：
+Ctrl+Alt+L快捷键，或者在主菜单中单击Code→Reformat Code
+可以自定义格式化标准，打开 code style settings对话框，
+选择指定语言（Python），进行必要的更改即可：
+8.新建文件夹：
+New or Alt+Insert
+
+9.https://blog.csdn.net/u013088062/article/details/50113593
+（1）在测试脚本中，将拼写错误标记为绿色
+setting--scopes--+--对应目录--include
+ （2）在说明文档（注释）中，将拼写错误改为红色提示
+ 在新建的作用域中创建代码检查控制文件：
+ 先复制一份
+ MyProjectProfile--duplicate
+ spelling-typo新增对应的作用域，，选择对应颜色的等级
+ 接下来我们将这个配置应用于对应代码区域，在主程序菜单中选择Code→Inspect Code，在对话框中指定已经定义好的作用域和配置文件：
+ 
+ 10.测试器配置：
+ 打开Settings/Preferences对话框，然后单击进入Python Intergated Tools页
+ --Nosetests
+ 
+ 11.控制台窗口提供了代码的拼写提示（Ctrl+Space）以及历史记忆（Up/Down keys）功能
+ 
+ 12.自动补全：
+ ctrl+shift+T/ctrl+空格
+ 13.Shift+F6--更新代码内容
+14.Alt + Enter：优化代码，提示信息实现自动导包
+15.Shift + Enter：在下方新建行并移到新行行首；
+16.Ctrl + Enter：在下方新建行但不移动光标；
+17.Alt+enter:生成对应的方法
+ 
+ 按下Ctrl+K快捷键更新代码。
+ 
+ https://github.com/HolyQuar/HereData.git
